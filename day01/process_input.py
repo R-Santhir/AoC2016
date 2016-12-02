@@ -15,6 +15,6 @@ for move in directions:
     else: #'L'
         beck.left_turn()
 
-    beck.move(int(move[1]))
+    beck.move(int(move[1:]))
 
 print (abs(beck.x) + abs(beck.y))
